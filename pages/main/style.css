@@ -473,7 +473,32 @@ header {
 }
 
 .header-logo {
-    padding: 14px 0;
+    position:absolute;
+    left:220px;
+    top: 14px;
+    width: 82px;
+    height: 52px;
+    radius: 2px;
+    /*padding: 14px 0;*/
+    border: 1px;
+    border-width:2px;
+    border-style:solid;
+    border-color: white;
+    /*margin-top: 14px;
+    margin-bottom: 14px; */
+    /*margin-right: 63px; */
+    
+}
+
+.header-logo-h1 {
+    font-style: regular;
+    font-size: 19.01px;
+    line-height: 23px;
+    line-height: 120%;
+    align: center;
+    vertical-align: top;
+    padding: 3.55px 4.75px;
+    color:#FFFFFF;
 }
 
 .header-nav {
@@ -483,9 +508,11 @@ header {
 .header-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .header-item {
+    margin-left: 63px;
     margin-right: 58px;
 }
 
@@ -564,11 +591,10 @@ header {
 
 .subtitle {
     
-    font-weight: 500;
-    font-size: 70px;
     line-height: 1;
-    /*text-align: center;*/
-}
+    text-align: center; 
+} 
+*/    
 
 .yellow-text {
     color: #FFEE2E;
@@ -590,14 +616,18 @@ header {
     top: 626px;
 }
 
+.introduction-button:hover, .introduction-button:focus {
+    opacity: 0.7;
+}
 /* section2 style*/
 
-.div-about {
-    position: absolute;
+.about-div {
+    /*position: absolute;
     left: 226px;
-    top: 1020px;
+    top: 940px; */
     width: 1161px;
     height: 403px;
+    margin-left: 226px;
 
 }
 
