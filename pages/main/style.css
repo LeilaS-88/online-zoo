@@ -433,6 +433,8 @@ html {
 }
 
 body {
+    max-width: 1600px;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-size: 16px;
@@ -442,17 +444,20 @@ body {
     width: 1600px;
 }
 
+img {
+    max-width: 100%;
+    height:auto;
+}
+
 .wrapper {
     max-width: 1160px;
     margin: 0 auto;
-    
 }
 
 /* header styles */
 
 header {
-    
-    width: 1600px;
+    /*width: 1600px;*/
     background: black;
     /*
     position: fixed; 
@@ -623,20 +628,60 @@ header {
 .introduction-button:hover, .introduction-button:focus {
     opacity: 0.7;
 }
-/* section2 style*/
 
-.div-section-second {
-    /*position: absolute;
-    left: 226px;
-    top: 940px; */
-    width: 1161px;
+/* section-second style*/
+
+.wrapper-section-second {
+    max-width: 1161px;
+    margin: 0 auto;
     height: 403px;
-    margin-left: 226px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 87px;
 
 }
 
-.spacer {
-    width: 87px;
+.column-first {
+    width: 609px;
+    height: 403px;
+}
+/*
+.column-second {
+       
+}*/
+
+.subtitle1 {
+    width: 465px;
+    height: 116px;
+    font-size: 48px;
+    line-height: 57.6px;
+    padding-top: 0;
+    margin-bottom: 20px;
 }
 
+.text1 {
+    width: 465px;
+    height: 42px;
+    font-size: 16px;
+    line-height: 20.8px; 
+    margin-bottom: 54px;
+}
 
+.subtitle2 {
+    width: 217px;
+    height: 29px;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-bottom: 34px;
+}
+
+.text2 {
+    width: 465px;
+    height: 105px;
+    font-size: 16px;
+    line-height: 22px; 
+    line-height: 140%;
+    align: left;
+    vertical-align: top;
+    margin-bottom: 3px;
+}
