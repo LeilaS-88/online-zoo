@@ -554,7 +554,7 @@ header {
 /* section styles */
 
 .section-first {
-    height: 100vh;
+    height: 700px;
     background: url(../../assets/images/Giant\ Panda.svg) no-repeat center;
     background-size: cover;
     padding-top: 0;
@@ -609,7 +609,7 @@ header {
     color: #FFEE2E;
 }
 
-.introduction-button {
+.button-common {
     width: 298px;
     height: 54px;
     
@@ -620,9 +620,16 @@ header {
     font-size: 16px;
     font-weight: 500px;
     border: 0;
+}
+
+.button-first {
     position:absolute;
     left: 983px;
     top: 626px;
+}
+
+.button-inner {
+    margin: 16px 5px 1px;
 }
 
 .introduction-button:hover, .introduction-button:focus {
@@ -637,7 +644,7 @@ header {
     height: 403px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 87px;
+    grid-column-gap: 87px;margin-bottom: 160px;
 
 }
 
@@ -684,4 +691,36 @@ header {
     align: left;
     vertical-align: top;
     margin-bottom: 3px;
+}
+
+/* Pets styles */
+
+.section-third {
+    max-width: 1158px;
+    height: 872px;
+    margin-left: 220px;
+    margin-right: 222px;
+    margin-bottom: 80px;
+}
+
+.pets-cards {
+    max-width: 1158px;
+    height: 872px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:30px;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px 10px 14px 16px;
+}
+
+.button-second {
+    position:absolute;
+    left: 651px;
+    top: 2455px;
 }
