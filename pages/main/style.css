@@ -483,7 +483,7 @@ header {
     top: 14px;
     width: 82px;
     height: 52px;
-    radius: 2px;
+    border-radius: 2px;
     /*padding: 14px 0;*/
     border: 1px;
     border-width:2px;
@@ -499,7 +499,7 @@ header {
     font-size: 19.01px;
     line-height: 23px;
     line-height: 120%;
-    align: center;
+    text-align: center;
     vertical-align: top;
     padding: 3.55px 4.75px;
     color:#FFFFFF;
@@ -696,7 +696,7 @@ header {
     font-size: 16px;
     line-height: 22px; 
     line-height: 140%;
-    align: left;
+    text-align: left;
     vertical-align: top;
     margin-bottom: 3px;
 }
@@ -723,6 +723,10 @@ header {
     border: 0;
 }
 
+.circle-button:hover {
+    opacity: 0.7;
+}
+
 .left-button {
     margin-right: 15px;
 }
@@ -734,17 +738,32 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:30px;
+    border: 2px solid #F9804B;
 }
 
+.pet-img:hover {
+    transform: scale(1.05);
+    transition: 0.15s;
+
+}
 .description {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 8px 10px 14px 16px;
+    border-width: 2px;
+    border-color:#F9804B;
+    border-radius: 5px;
 }
 
 .pet-name {
     font-weight: 500px;
+}
+
+.pet-card {
+    border-width: 2px;
+    border-color:#F9804B;
+    border-radius: 5px;
 }
 
 .button-second {
@@ -861,3 +880,39 @@ header {
 .button-text-section-forth {
     text-align: center;
 }
+
+/* section fifth */
+
+.section-fifth {
+    
+}
+.testimonials {
+    width:1160px;
+    height: 575px;
+    background:#b3d4fc;
+    margin-top: 140px;
+}
+
+/* Flowers */
+/*
+.flower1 {
+    position: absolute;
+    height: 605px;
+    left: 1400px;
+    top: 792px;
+}
+
+.flower2 {
+    position: absolute;
+    height: 460px;
+    left: -588px;
+    top: 2149px;
+}
+
+.flower3 {
+    position: absolute;
+    height: 275px;
+    left: 1600px;
+    top: 2334px;
+}
+*/
